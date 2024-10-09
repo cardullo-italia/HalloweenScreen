@@ -1,0 +1,22 @@
+[
+    {
+        "nameRecipe":"Mummy frankfurter",
+        "difficulty":"easy",
+        "image":"https://i.pinimg.com/564x/22/b8/e8/22b8e8cf4b591f0a4b23ac6c7513a952.jpg"
+    },
+    {
+        "nameRecipe":"Ghobiscuits",
+        "difficulty":"easy",
+        "image":"https://i.pinimg.com/564x/e7/51/bf/e751bf17fdedbc266b00b4d11865f699.jpg"
+    },
+    {
+        "nameRecipe":"Spider nests",
+        "difficulty":"easy",
+        "image":"https://i.pinimg.com/474x/aa/a1/6d/aaa16d2d8bf646a615232629dcb42c19.jpg"
+    },
+    {
+        "nameRecipe":"Jack O' Peppers",
+        "difficulty":"easy",
+        "image":"https://i.pinimg.com/474x/b8/c7/dd/b8c7ddddb2b81c314cf5fb27a4cb8a4e.jpg"
+    }
+]
