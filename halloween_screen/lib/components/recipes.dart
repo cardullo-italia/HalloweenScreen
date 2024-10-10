@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:halloween_screen/data/recipeExtractData.dart';
 import 'package:halloween_screen/theme/themeColorApp.dart';
 
@@ -42,7 +43,7 @@ class _RecipeHalloweenState extends State<RecipeHalloween> {
             itemBuilder: (context, index) {
               RecipeExtractData recipe = snapshot.data![index];
               return Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                padding: const EdgeInsets.symmetric(horizontal: 5),
                 child: Container(
                   height: 193,
                   width: 174,
@@ -70,7 +71,7 @@ class _RecipeHalloweenState extends State<RecipeHalloween> {
                               ),
                               borderRadius: const BorderRadius.all(
                                 Radius.circular(20),
-                              ),
+                              ), 
                             ),
                           ),
                           Padding(
@@ -83,22 +84,38 @@ class _RecipeHalloweenState extends State<RecipeHalloween> {
                                 color: ColorScreenHalloween.whiteColor,
                                 borderRadius: BorderRadius.circular(10.0),
                               ),
-                              child: const Text("Easy"),
+                              child: Text(
+                                "Easy",
+                                style: GoogleFonts.instrumentSerif(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.normal),
+                              ),
                             ),
                           ),
                         ],
                       ),
-                      const SizedBox(height: 10), 
-                       Expanded( 
+                      const SizedBox(height: 8),
+                      Expanded(
                         child: Padding(
-                          padding:  const EdgeInsets.all(5),
-                          child: Row(children:[
-                            Text(
-                            recipe.nameRecipe,
-                            overflow: TextOverflow.ellipsis,
+                          padding: const EdgeInsets.only(left: 8, right: 4),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                recipe.nameRecipe,
+                                style: GoogleFonts.instrumentSerif(
+                                    fontSize: 19,
+                                    fontWeight: FontWeight.w300,
+                                    color:
+                                        ColorScreenHalloween.yellowBeigeColor),
+                                overflow: TextOverflow.clip,
+                              ),
+                              const Icon(
+                                Icons.arrow_forward_ios,
+                                color: ColorScreenHalloween.yellowBeigeColor,
+                              )
+                            ],
                           ),
-                          const Icon(Icons.arrow_right_outlined)
-                          ])
                         ),
                       ),
                     ],

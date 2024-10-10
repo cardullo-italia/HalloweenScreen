@@ -1,0 +1,12 @@
+[
+    {
+        "nameFilm":"IT",
+        "rates":"4.5",
+        "imgFilm":"https://i.pinimg.com/474x/4f/d3/ff/4fd3ffd4a14ba5d8f569a85904f03a2f.jpg"
+    },
+    {
+        "nameFilm":"Venerdì 13",
+        "rates":"4.3",
+        "imgFilm":"https://i.pinimg.com/474x/8e/8a/c2/8e8ac26c3ba2731c0b0bf5e7dc27cbff.jpg"
+    }
+]

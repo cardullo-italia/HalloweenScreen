@@ -1,4 +1,5 @@
-import 'dart:ui';
+// ignore: file_names
+import 'package:flutter/material.dart';
 
 class ColorScreenHalloween {
   static const Color orangeColor = Color(0xFF962E18);
